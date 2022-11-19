@@ -13,5 +13,7 @@ Options:
 
 from docopt import docopt
 opt = docopt(__doc__)
+def main():
 print(opt)
 print(type(opt))
+main()
